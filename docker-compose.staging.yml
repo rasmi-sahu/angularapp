@@ -1,0 +1,10 @@
+version: '2'
+services:
+  demongapp:
+    build:
+      context: .
+      dockerfile: .docker/staging.Dockerfile
+    image: demongapp-staging
+    container_name: demongapp-staging
+    ports:
+      - 80:80

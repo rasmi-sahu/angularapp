@@ -1,0 +1,7 @@
+  
+version: '2'
+services:
+  demongapp:
+    build:
+      context: .
+      dockerfile: .docker/prod.Dockerfile
